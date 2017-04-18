@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://use.fontawesome.com/dc15077a0d.js"></script>
+
+<style>
+body {margin: 0;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+}
+
+.icons{
+	float: left;
+    color: white;
+}
+
+
+.nav{
+    float: right;
+    font-family: "Century Gothic", CenturyGothic;
+    font-size: 20px;
+}
+
+html{
+
+     background: url(Images/NewYork.jpg) no-repeat center center fixed;
+     -webkit-background-size: cover;
+     -moz-background-size:cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+
+div.transBoxMain {
+     margin-top: 60px;
+     margin-right: 270px;
+     margin-left: 270px;
+     border: 3px solid black;
+     background-color: #ffffff;
+     opacity: 0.8;
+     filter: alpha; 
+     z-index: -1;
+}
+
+div.transBoxGame {
+     width: 980px;
+     height: 290px;
+     margin-right: 1300px;
+     margin-left: 270px;
+     top: 70px;
+     position: relative;
+     /*border: 3px solid black;*/
+*//*     opacity: 0.6;
+     filter: alpha(opacity=60);*/
+}
+
+.opaBack{
+    border: 3px solid black;
+    top: 0px;
+    float: left;
+    width: 280px;
+    height: 250px;
+    position: absolute;
+    background-color: #ffffff;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+#box2{
+    left: 350px;
+}
+
+#box3{
+    right: 00px;
+}
+
+#noBox{
+    opacity: 0;
+}
+
+.linkGame{
+     position: relative;
+     z-index: 1;
+     top: 20px;
+}
+
+#image1{
+    left: -115px;
+}
+
+#image2{
+    left: 0px;
+}
+
+#image3{
+    left: 110px;
+}
+
+#imageSite{
+    top: 0px;
+    left: 0px;
+}
+
+</style>
+</head>
+<body>
+<!-- /*margin-top:50px;*/
+ -->
+<ul>
+
+    <li><a class = "icons" href="mailto:jao1@binghamton.edu"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i> </a></li>
+    <li><a class = "icons" href="https://github.com/jocelynao"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a> </li>
+    <li><a class = "icons"><i class="fa fa-file-text-o fa-2x" aria-hidden="true"></i></i></a> </li>
+
+    <li><a class = "nav" href = "#projects"> Projects </a></li>
+    <li><a class = "nav" href = "#home"> Home </a></li>
+
+</ul>
+
+
+
+<div style = "
+/*padding:20px;*/
+padding-top: 100px;
+padding-bottom: 500px;
+margin-top:0px;
+text-align: center;">
+<!-- /*background: url(Images/NewYork.jpg);
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;*/ -->
+<body>
+
+<div class = "transBoxMain">
+<p style = "font-family: 'Century Gothic', CenturyGothic;
+          font-size: 30px"> 
+            Programming Projects
+</p>
+</div>
+
+<div class = "transBoxGame">
+
+<div class = "opaBack">
+</div>
+<a href = "https://github.com/jocelynao/Uno-Game">
+<img class = "linkGame" src = "Images/unoGamePic.png" id = "image1" width = "230" height = "180">
+</a>
+<p style = "font-family: 'Century Gothic', CenturyGothic;
+            font-size: 20px; position: absolute; left: 90px">
+            Uno Game
+</p>
+
+<div class = "opaBack" id = "box2">
+</div>
+<a href = "https://github.com/jocelynao/Spanish-Vocabulary-Game">
+<img class = "linkGame" id = image2 src = "Images/spanishVocabGamePic.png" width = "230" height = "180">
+</a>
+<p style = "font-family: 'Century Gothic', CenturyGothic;
+            font-size: 20px; position: absolute; right: 20px;
+            left: 20px">
+            Spanish Vocab Game
+</p>
+
+<div class = "opaBack" id = "box3">
+</div>
+<a href = "https://github.com/jocelynao/My-Pet-Toucan">
+<img class = "linkGame" id = image3 src = "Images/petToucanPic.png" width = "230" height = "180">
+</a>
+<p style = "font-family: 'Century Gothic', CenturyGothic;
+            font-size: 20px; position: absolute; right: 70px;">
+            My Pet Toucan
+</p>
+
+</div>
+
+<div class = "transBoxGame">
+
+<div class = "opaBack" id = "box1">
+</div>
+<a href = "https://github.com/jocelynao/Library">
+<img class = "linkGame" id = "image1" src = "Images/libraryPic.png" width = "230" height = "180">
+</a>
+<p style = "font-family: 'Century Gothic', CenturyGothic;
+            font-size: 20px; position: absolute; left: 60px; top: 190px">
+            Library Simulator
+</p>
+
+<div class = "opaBack" id = "box2">
+</div>
+<a href = "https://github.com/jocelynao/My-Website">
+<img class = "linkGame" src = "Images/mySite.png" id = "imageSite" width = "230" height = "140">
+</a>
+<p style = "font-family: 'Century Gothic', CenturyGothic;
+            font-size: 20px; position: absolute; right: 425px">
+            This Webpage
+</p>
+
+<div class = "opaBack" id = "noBox">
+</div>
+<img class = "linkGame" id = noBox src = "Images/spanishVocabGamePic.png" width = "230" height = "180">
+
+</div>
+
+</body>
+</html>
+<!-- <div class = "transBoxGame">
+<div class = "opaBack">
+</div>
+<a href = "https://github.com/jocelynao/Spanish-Vocabulary-Game">
+<img class = "linkGame" src = "Images/spanishVocabGamePic.png" width = "250" height = "200" float = "left">
+</div> -->
+
+
+
+<!-- http://stackoverflow.com/questions/5182170/how-to-let-an-html-image-overlap-another -->
+
+
+<!--     border: 50px solid rgb(127, 0, 0);
+    border: 50px solid rgba(255, 0, 0, .5);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; -->
